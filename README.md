@@ -105,7 +105,7 @@ Prêt ? C'est parti ! 🎉
 ### 🛠️ Maintenabilité
 1. Hmm... Étrange, pourquoi avons-nous une erreur avec ce test ? Ça doit être la fonction `etrangeFonction` que je vous ai donnée mais... Que fait-elle ? Voyons voir (en supposant que vous ne savez pas ce que fait cette fonction).  
    
-    Sélectionnez toute la fonction `etrangeFonction`. Puis ouvrez votre chat Copilot. Dans la zone de texte, vous devriez voir une petite indication disant `[nom-de-votre-fichier]:[lignes-sélectionnées] *current file* [et un œil]`. Cela indique que la demande que vous enverrez à votre IA attachera des informations du fichier que vous avez ouvert, et plus précisément les lignes sélectionnées dans le fichier (ici, les lignes sélectionnées sont la fonction que vous venez de surligner) => Cela ajoute une référence utilisée comme "contexte".  
+    Sélectionnez toute la fonction `etrangeFonction`. Puis ouvrez votre chat Copilot. Dans la zone de texte, vous devriez voir une petite indication disant `[nom-de-votre-fichier]:[lignes-sélectionnées] *current file*`. Cela indique que la demande que vous enverrez à votre IA attachera des informations du fichier que vous avez ouvert, et plus précisément les lignes sélectionnées dans le fichier (ici, les lignes sélectionnées sont la fonction que vous venez de surligner) => Cela ajoute une référence utilisée comme "contexte".  
    Demandez à votre IA, que fait ce code. Vous verrez que vous n'avez pas besoin de copier-coller la fonction que vous avez surlignée, elle est automatiquement ajoutée au contexte du chat Copilot. Alors, que fait ce code ?
 
     <details>
