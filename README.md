@@ -115,11 +115,11 @@ Prêt ? C'est parti ! 🎉
       </details>
       <br>
 
-    **Note** : Si vous ne voulez pas que Copilot ajoute le fichier actuel comme contexte, cliquez sur l'œil pour le désactiver.
+    **Note** : Si vous ne voulez pas que Copilot ajoute le fichier actuel comme contexte, retirer votre sélection de code et cliquez sur la croix à coté du nom de votre fichier pour le désactiver.
 
 2. Il semble que ce code soit bon et assez simple, donc c'est la fonction `secondFonction` qui a un problème causant cette division par 0. Nous devrions ajouter une protection autour de cela. Sélectionnez toute la fonction `secondFonction`. Cette fois, faites un clic droit dessus et trouvez l'option "Copilot". Et comme nous voulons la corriger, cliquez sur "fix". Copilot expliquera ce qu'il pense ne pas fonctionner et vous proposera du code en vert. Ce code ne sera pas appliqué tant que vous ne l'aurez pas vérifié et cliqué sur "accept". Si le code proposé ne correspond pas à ce que vous voulez, vous pouvez cliquer sur "discard".
 
-3. Maintenant, cela devrait être mieux... Mais avec autant de modifications, nous avons un gros code spaghetti, peut-être devrions-nous refactoriser ce fichier. Désélectionnez tout code de votre fichier. Vous devriez voir cette fois dans votre chat Copilot `[nom-de-votre-fichier]:~~[lignes-sélectionnées]~~ *Fichier actuel* [et un œil]`. Il n'y a maintenant plus aucune ligne indiquée, donc cela ajoutera TOUT le fichier dans le contexte du prompt. Demandez à votre IA de refactoriser le code.  
+3. Maintenant, cela devrait être mieux... Mais avec autant de modifications, nous avons un gros code spaghetti, peut-être devrions-nous refactoriser ce fichier. Désélectionnez tout code de votre fichier. Vous devriez voir cette fois dans votre chat Copilot `[nom-de-votre-fichier]:~~[lignes-sélectionnées]~~ *Fichier actuel* [et une croix]`. Il n'y a maintenant plus aucune ligne indiquée, donc cela ajoutera TOUT le fichier dans le contexte du prompt. Demandez à votre IA de refactoriser le code.  
 
     **Note** : Vous pouvez le faire comme ça parce que c'est un petit fichier avec peu de lignes de code. Si votre fichier est beaucoup plus grand ou si vous voulez refactoriser seulement une partie de votre code (ce qui est une meilleure méthode), surlignez la partie du code puis demandez à votre IA. Si le code vous semble correct, vous pouvez maintenant copier-coller le code généré et remplacer le vôtre ou, en haut à droite du code suggéré, vous pouvez cliquer sur "apply in editor" et "accept changes".
 
