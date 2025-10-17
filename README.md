@@ -117,7 +117,7 @@ Prêt ? C'est parti ! 🎉
 
     **Note** : Si vous ne voulez pas que Copilot ajoute le fichier actuel comme contexte, retirer votre sélection de code et cliquez sur la croix à coté du nom de votre fichier pour le désactiver.
 
-2. Il semble que ce code soit bon et assez simple, donc c'est la fonction `secondFonction` qui a un problème causant cette division par 0. Nous devrions ajouter une protection autour de cela. Sélectionnez toute la fonction `secondFonction`. Cette fois, faites un clic droit dessus et trouvez l'option "Copilot". Et comme nous voulons la corriger, cliquez sur "fix". Copilot expliquera ce qu'il pense ne pas fonctionner et vous proposera du code en vert. Ce code ne sera pas appliqué tant que vous ne l'aurez pas vérifié et cliqué sur "accept". Si le code proposé ne correspond pas à ce que vous voulez, vous pouvez cliquer sur "discard".
+2. Il semble que ce code soit bon et assez simple, donc c'est la fonction `secondFonction` qui a un problème causant cette division par 0. Nous devrions ajouter une protection autour de cela. Sélectionnez toute la fonction `secondFonction`. Cette fois, faites un clic droit dessus et trouvez l'option "Copilot" (ou "Generate code" dans les versions plus récentes). Et comme nous voulons la corriger, cliquez sur "fix". Copilot expliquera ce qu'il pense ne pas fonctionner et vous proposera du code en vert. Ce code ne sera pas appliqué tant que vous ne l'aurez pas vérifié et cliqué sur "accept". Si le code proposé ne correspond pas à ce que vous voulez, vous pouvez cliquer sur "discard".
 
 3. Maintenant, cela devrait être mieux... Mais avec autant de modifications, nous avons un gros code spaghetti, peut-être devrions-nous refactoriser ce fichier. Désélectionnez tout code de votre fichier. Vous devriez voir cette fois dans votre chat Copilot `[nom-de-votre-fichier]:~~[lignes-sélectionnées]~~ *Fichier actuel* [et une croix]`. Il n'y a maintenant plus aucune ligne indiquée, donc cela ajoutera TOUT le fichier dans le contexte du prompt. Demandez à votre IA de refactoriser le code.  
 
@@ -125,7 +125,7 @@ Prêt ? C'est parti ! 🎉
 
 
 4. Maintenant que nous avons un code qui est quelque peu correct, vérifions s'il suit les bonnes pratiques de programmation selon ce que Copilot sait des revues de code.<br>Sélectionnez tout votre code<br>
-Faites un clic droit dessus et trouvez l'option "Copilot"<br>
+Faites un clic droit dessus et trouvez l'option "Copilot" (ou "Generate code" dans les versions plus récentes)<br>
 Et comme nous voulons le revoir, cliquez sur "review and comment"<br>
 Selon ce que Copilot sait des revues de code, il vous suggérera des modifications pour avoir une bonne cohérence dans votre code<br>
 Vous pouvez soit Accepter soit Rejeter en fonction de vos best practices<br>
@@ -134,7 +134,7 @@ Vous pouvez soit Accepter soit Rejeter en fonction de vos best practices<br>
     
 5. Nous devrions tester notre code, ce serait une bonne idée<br>
 Sélectionnez toute la fonction `etrangeFonction`<br>
-Faites un clic droit dessus et trouvez l'option `Copilot`<br>
+Faites un clic droit dessus et trouvez l'option `Copilot` (ou "Generate code" dans les versions plus récentes)<br>
 Et comme nous voulons la tester, cliquez sur `Generate tests`<br>
 Selon le langage que vous utilisez, Copilot pourrait vous demander s'il peut créer un nouveau fichier pour vous<br>
 Si les tests vous semblent bons, vous pouvez valider en cliquant sur `accept` ou refuser en cliquant sur `discard`
@@ -148,7 +148,7 @@ Si les tests vous semblent bons, vous pouvez valider en cliquant sur `accept` ou
     </details>
     <br>
 
-7. Super, ce nouveau code devrait être correct maintenant, nous devrions écrire de la documentation sur certaines parties de ce code<br>Sélectionnez une partie du code pour laquelle vous voulez de la documentation<br>Faites un clic droit dessus et trouvez l'option `Copilot`<br>Et comme nous voulons de la documentation, cliquez sur `Generate docs`<br>Si la documentation générée vous semble bonne, vous pouvez valider en cliquant sur `accept` ou refuser en cliquant sur `discard`
+7. Super, ce nouveau code devrait être correct maintenant, nous devrions écrire de la documentation sur certaines parties de ce code<br>Sélectionnez une partie du code pour laquelle vous voulez de la documentation<br>Faites un clic droit dessus et trouvez l'option `Copilot` (ou "Generate code" dans les versions plus récentes)<br>Et comme nous voulons de la documentation, cliquez sur `Generate docs`<br>Si la documentation générée vous semble bonne, vous pouvez valider en cliquant sur `accept` ou refuser en cliquant sur `discard`
 <br><br>
 
 8. Si vous avez oublié ce que fait votre code et que vous voulez une explication faite par Copilot<br>Il existe des variables vous permettant de pouvoir indiquer à votre chat IA sur quelle(s) fichier(s) vous voulez faire votre traitement<br>Cela peut être sur tout votre workspace, dans ce cas là, utilisez le caractère arobase (@) puis workspace (vous pouvez également voir les autres emplacements de fichier disponible en fonction de vos besoins)<br>Ici, nous voulons appliquer seulement sur un seul fichier, dans ce cas, dans votre arborescence de projet, faites un clique droit sur ce fichier > "add file to chat", vous devriez ensuite le voir inclus dans le contexte de votre chat<br>Une autre manière de le faire est de taper le caractère hashtag (#) puis de sélectionner votre fichier dans la liste de suggestion, vous verrez dans votre chat que celui-ci sera indiqué comme "file:<nom-de-votre-fichier>"<br>Suite à cela, nous pouvons écrire notre prompt pour générer une explication dessus, ou bien alors utiliser une des commandes déjà pré-écrite de Copilot en tapant le caractère slash (/) puis explain.
